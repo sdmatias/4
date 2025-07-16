@@ -20,7 +20,7 @@ body {
 
 /* ==== Compnentes principales ====*/
 
-/* Navbar */
+/* ==== Navbar ==== */
 .navbar {
     position: fixed;
     top: 0;
@@ -62,13 +62,13 @@ body {
     color: var(--color-accent);
 }
 
-/* Header*/
+/* ==== Header ==== */
 header {
     text-align: center;
     margin-bottom: 2rem;
 }
 
-/* Galería Flexbox */
+/* ==== Galería Flexbox ==== */
 .product-grid {
     display: flex;
     flex-wrap: wrap;
