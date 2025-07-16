@@ -119,6 +119,18 @@ header {
     text-align: center;
 }
 
+/* ==== Flexbox centrado verticalmente con hero minimaLista ====*/
+.hero-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: linear-gradient(to right, #8ec5fc, #e0c3fc);
+    color: white;
+    text-align: center;
+}
+
 /* ==== Media Queries (escalado progresivo) ====*/
 @media (min-width: 768px) {
     .navbar {
